@@ -38,6 +38,8 @@ def random_restaurant_picker(restaurant_list):
       random_restaurant= random.choice(restaurant_list)
       return random_restaurant
 
+
+
 def user_restaurant_confirmation(restaurant_list):
     user_confirmed =(False)
     while user_confirmed == (False):
